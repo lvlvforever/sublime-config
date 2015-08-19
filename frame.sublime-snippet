@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+import java.util.*;
+public class ${1:className} {
+	public static void main(String[] args){
+		${1} l = new ${1}();
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sframe</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>
